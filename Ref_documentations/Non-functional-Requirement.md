@@ -4,14 +4,12 @@
 
 ## 1. Performance
 
-- Standard screens and list queries: p95 under 2 seconds.
-- Orphan profile load: p95 under 3 seconds including media thumbnails.
-- Bulk import of 5,000 rows validated within 5 minutes.
-- Matching run for 10,000 eligible orphans completes within 2 minutes.
+- Responsive screens and list queries under normal operating load.
+- Bulk import and matching runs must handle large batches without blocking other users.
 
 ## 2. Availability
 
-- Target availability 99.5% during business hours across operating time zones.
+- High availability for users across all operating countries.
 - Planned maintenance announced in advance.
 
 ## 3. Scalability
@@ -58,5 +56,5 @@ See `Security-Privacy.md`.
 
 ## 11. Disaster Recovery
 
-- Daily backups; RPO ≤ 24 hours, RTO ≤ 8 hours (to be confirmed).
-- Restore tested at least twice a year.
+- Regular encrypted backups.
+- Restore procedure documented and tested.
