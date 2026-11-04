@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="1220" viewBox="0 0 980 1220" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#455A64"/></marker><marker id="arE" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#B07A00"/></marker></defs>
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<text x="30" y="34" font-size="20" font-weight="700" fill="#263238">4. General Support Activity</text>
+<g transform="translate(30,64)"><rect x="0" y="-9" width="26" height="14" rx="2" fill="#fff" stroke="#37474F"/><text x="34" y="2" font-size="11.5" fill="#455A64">Step</text></g>
+<g transform="translate(115.6,64)"><path d="M13,-11 L26,-2 L13,7 L0,-2 z" fill="#E8F0FE" stroke="#4A73C9"/><text x="34" y="2" font-size="11.5" fill="#455A64">Decision</text></g>
+<g transform="translate(226.8,64)"><rect x="0" y="-9" width="26" height="14" rx="7" fill="#E6F4EA" stroke="#2E7D32"/><text x="34" y="2" font-size="11.5" fill="#455A64">Start / end</text></g>
+<g transform="translate(357.20000000000005,64)"><rect x="0" y="-9" width="26" height="14" rx="7" fill="#FFE8A3" stroke="#D49B00"/><text x="34" y="2" font-size="11.5" fill="#455A64">Notification event (sent to the next lane)</text></g>
+<g transform="translate(686,64)"><line x1="0" y1="-2" x2="26" y2="-2" stroke="#B07A00" stroke-width="1.6" marker-end="url(#arE)"/><text x="34" y="2" font-size="11.5" fill="#455A64">Hand-over with event</text></g>
+<rect x="38" y="90" width="214" height="36" rx="7" fill="#E6E9EC" stroke="#78909C" stroke-width="2"/>
+<text x="145" y="113" font-size="13.5" font-weight="700" fill="#263238" text-anchor="middle">Orphan Program Staff</text>
+<rect x="260" y="134" width="230" height="1070" fill="#F7F9FA"/>
+<rect x="268" y="90" width="214" height="36" rx="7" fill="#E6E9EC" stroke="#78909C" stroke-width="2"/>
+<text x="375" y="113" font-size="13.5" font-weight="700" fill="#263238" text-anchor="middle">Program Manager</text>
+<line x1="260" y1="134" x2="260" y2="1210" stroke="#B0BEC5" stroke-dasharray="4 4"/>
+<rect x="498" y="90" width="214" height="36" rx="7" fill="#E6E9EC" stroke="#78909C" stroke-width="2"/>
+<text x="605" y="113" font-size="13.5" font-weight="700" fill="#263238" text-anchor="middle">Country / Field Office</text>
+<line x1="490" y1="134" x2="490" y2="1210" stroke="#B0BEC5" stroke-dasharray="4 4"/>
+<rect x="720" y="134" width="230" height="1070" fill="#F7F9FA"/>
+<rect x="728" y="90" width="214" height="36" rx="7" fill="#E6E9EC" stroke="#78909C" stroke-width="2"/>
+<text x="835" y="113" font-size="13.5" font-weight="700" fill="#263238" text-anchor="middle">OMS System</text>
+<line x1="720" y1="134" x2="720" y2="1210" stroke="#B0BEC5" stroke-dasharray="4 4"/>
+<path d="M145,227 L145,280" fill="none" stroke="#455A64" stroke-width="1.3" stroke-linejoin="round" marker-end="url(#ar)"/>
+<path d="M145,332 L145,346 L375,346 L375,377" fill="none" stroke="#B07A00" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#arE)"/>
+<path d="M300,410 L260,410 L260,202 L233,202" fill="none" stroke="#455A64" stroke-width="1.3" stroke-linejoin="round" marker-end="url(#ar)"/>
+<path d="M375,443 L375,450 L605,450 L605,488" fill="none" stroke="#B07A00" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#arE)"/>
+<path d="M605,540 L605,554 L835,554 L835,585" fill="none" stroke="#455A64" stroke-width="1.3" stroke-linejoin="round" marker-end="url(#ar)"/>
+<path d="M835,651 L835,658 L605,658 L605,696" fill="none" stroke="#455A64" stroke-width="1.3" stroke-linejoin="round" marker-end="url(#ar)"/>
+<path d="M760,618 L720,618 L720,514 L693,514" fill="none" stroke="#455A64" stroke-width="1.3" stroke-linejoin="round" marker-end="url(#ar)"/>
+<path d="M605,748 L605,800" fill="none" stroke="#455A64" stroke-width="1.3" stroke-linejoin="round" marker-end="url(#ar)"/>
+<path d="M605,852 L605,866 L375,866 L375,897" fill="none" stroke="#B07A00" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#arE)"/>
+<path d="M450,930 L490,930 L490,826 L517,826" fill="none" stroke="#455A64" stroke-width="1.3" stroke-linejoin="round" marker-end="url(#ar)"/>
+<path d="M375,963 L375,970 L835,970 L835,1008" fill="none" stroke="#455A64" stroke-width="1.3" stroke-linejoin="round" marker-end="url(#ar)"/>
+<path d="M835,1060 L835,1115" fill="none" stroke="#455A64" stroke-width="1.3" stroke-linejoin="round" marker-end="url(#ar)"/>
+<rect x="57" y="177" width="176" height="50" rx="25" fill="#E6F4EA" stroke="#2E7D32" stroke-width="1.4"/>
+<text x="145" y="198.82" font-size="12" fill="#212121" text-anchor="middle">Create activity: objectives,</text>
+<text x="145" y="213.82" font-size="12" fill="#212121" text-anchor="middle">country, target, rules</text>
+<rect x="57" y="280" width="176" height="52" rx="4" fill="#FFFFFF" stroke="#37474F" stroke-width="1.4"/>
+<text x="145" y="310.32" font-size="12" fill="#212121" text-anchor="middle">Submit for approval</text>
+<path d="M375,377 L450,410 L375,443 L300,410 z" fill="#E8F0FE" stroke="#4A73C9" stroke-width="1.4"/>
+<text x="375" y="406.96" font-size="11" fill="#212121" text-anchor="middle">Approve</text>
+<text x="375" y="420.96" font-size="11" fill="#212121" text-anchor="middle">activity?</text>
+<rect x="517" y="488" width="176" height="52" rx="4" fill="#FFFFFF" stroke="#37474F" stroke-width="1.4"/>
+<text x="605" y="510.82" font-size="12" fill="#212121" text-anchor="middle">Select beneficiaries</text>
+<text x="605" y="525.82" font-size="12" fill="#212121" text-anchor="middle">from orphan registry</text>
+<path d="M835,585 L910,618 L835,651 L760,618 z" fill="#E8F0FE" stroke="#4A73C9" stroke-width="1.4"/>
+<text x="835" y="614.96" font-size="11" fill="#212121" text-anchor="middle">Country eligibility</text>
+<text x="835" y="628.96" font-size="11" fill="#212121" text-anchor="middle">&amp; frequency OK?</text>
+<rect x="517" y="696" width="176" height="52" rx="4" fill="#FFFFFF" stroke="#37474F" stroke-width="1.4"/>
+<text x="605" y="726.32" font-size="12" fill="#212121" text-anchor="middle">Execute activity</text>
+<rect x="517" y="800" width="176" height="52" rx="4" fill="#FFFFFF" stroke="#37474F" stroke-width="1.4"/>
+<text x="605" y="822.82" font-size="12" fill="#212121" text-anchor="middle">Record actual beneficiaries</text>
+<text x="605" y="837.82" font-size="12" fill="#212121" text-anchor="middle">&amp; upload evidence</text>
+<path d="M375,897 L450,930 L375,963 L300,930 z" fill="#E8F0FE" stroke="#4A73C9" stroke-width="1.4"/>
+<text x="375" y="926.96" font-size="11" fill="#212121" text-anchor="middle">Accept activity</text>
+<text x="375" y="940.96" font-size="11" fill="#212121" text-anchor="middle">report?</text>
+<rect x="747" y="1008" width="176" height="52" rx="4" fill="#FFFFFF" stroke="#37474F" stroke-width="1.4"/>
+<text x="835" y="1030.82" font-size="12" fill="#212121" text-anchor="middle">Link participation to</text>
+<text x="835" y="1045.82" font-size="12" fill="#212121" text-anchor="middle">each Orphan Profile</text>
+<rect x="747" y="1115" width="176" height="46" rx="23" fill="#E6F4EA" stroke="#2E7D32" stroke-width="1.4"/>
+<text x="835" y="1142.32" font-size="12" fill="#212121" text-anchor="middle">Activity closed</text>
+<g><rect x="193" y="337" width="134" height="18" rx="9" fill="#FFE8A3" stroke="#D49B00"/><text x="260" y="349.6" font-size="10.5" font-weight="600" fill="#5D4200" text-anchor="middle">⚡ Activity Submitted</text></g>
+<text x="292" y="404" font-size="10.5" font-weight="600" fill="#455A64" text-anchor="end">No</text>
+<text x="381" y="457" font-size="10.5" font-weight="600" fill="#455A64" text-anchor="start">Yes</text>
+<g><rect x="440.7" y="441" width="98.60000000000001" height="18" rx="9" fill="#FFE8A3" stroke="#D49B00"/><text x="490" y="453.6" font-size="10.5" font-weight="600" fill="#5D4200" text-anchor="middle">⚡ Activity Due</text></g>
+<text x="841" y="665" font-size="10.5" font-weight="600" fill="#455A64" text-anchor="start">Yes</text>
+<text x="752" y="612" font-size="10.5" font-weight="600" fill="#455A64" text-anchor="end">No</text>
+<g><rect x="402.35" y="857" width="175.3" height="18" rx="9" fill="#FFE8A3" stroke="#D49B00"/><text x="490" y="869.6" font-size="10.5" font-weight="600" fill="#5D4200" text-anchor="middle">⚡ Activity Report Submitted</text></g>
+<text x="458" y="924" font-size="10.5" font-weight="600" fill="#455A64" text-anchor="start">Return</text>
+<text x="381" y="977" font-size="10.5" font-weight="600" fill="#455A64" text-anchor="start">Accept</text>
+<text x="30" y="1208" font-size="11" fill="#607D8B">Rules: every activity has a beneficiary target (BR-005) · beneficiaries come from registered orphans · country rules limit participation (BR-006/007).</text>
+</svg>

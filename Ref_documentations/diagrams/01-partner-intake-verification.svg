@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1532" viewBox="0 0 1440 1532" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#455A64"/></marker><marker id="arE" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#B07A00"/></marker></defs>
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<text x="30" y="34" font-size="20" font-weight="700" fill="#263238">1. Partner Compliance, Orphan Intake &amp; Verification</text>
+<g transform="translate(30,64)"><rect x="0" y="-9" width="26" height="14" rx="2" fill="#fff" stroke="#37474F"/><text x="34" y="2" font-size="11.5" fill="#455A64">Step</text></g>
+<g transform="translate(115.6,64)"><path d="M13,-11 L26,-2 L13,7 L0,-2 z" fill="#E8F0FE" stroke="#4A73C9"/><text x="34" y="2" font-size="11.5" fill="#455A64">Decision</text></g>
+<g transform="translate(226.8,64)"><rect x="0" y="-9" width="26" height="14" rx="7" fill="#E6F4EA" stroke="#2E7D32"/><text x="34" y="2" font-size="11.5" fill="#455A64">Start / end</text></g>
+<g transform="translate(357.20000000000005,64)"><rect x="0" y="-9" width="26" height="14" rx="7" fill="#FFE8A3" stroke="#D49B00"/><text x="34" y="2" font-size="11.5" fill="#455A64">Notification event (sent to the next lane)</text></g>
+<g transform="translate(686,64)"><line x1="0" y1="-2" x2="26" y2="-2" stroke="#B07A00" stroke-width="1.6" marker-end="url(#arE)"/><text x="34" y="2" font-size="11.5" fill="#455A64">Hand-over with event</text></g>
+<rect x="38" y="90" width="214" height="36" rx="7" fill="#E6E9EC" stroke="#78909C" stroke-width="2"/>
+<text x="145" y="113" font-size="13.5" font-weight="700" fill="#263238" text-anchor="middle">Partner / Country Office</text>
+<rect x="260" y="134" width="230" height="1382" fill="#F7F9FA"/>
+<rect x="268" y="90" width="214" height="36" rx="7" fill="#E6E9EC" stroke="#78909C" stroke-width="2"/>
+<text x="375" y="113" font-size="13.5" font-weight="700" fill="#263238" text-anchor="middle">Compliance Officer</text>
+<line x1="260" y1="134" x2="260" y2="1522" stroke="#B0BEC5" stroke-dasharray="4 4"/>
+<rect x="498" y="90" width="214" height="36" rx="7" fill="#E6E9EC" stroke="#78909C" stroke-width="2"/>
+<text x="605" y="113" font-size="13.5" font-weight="700" fill="#263238" text-anchor="middle">OMS System</text>
+<line x1="490" y1="134" x2="490" y2="1522" stroke="#B0BEC5" stroke-dasharray="4 4"/>
+<rect x="720" y="134" width="230" height="1382" fill="#F7F9FA"/>
+<rect x="728" y="90" width="214" height="36" rx="7" fill="#E6E9EC" stroke="#78909C" stroke-width="2"/>
+<text x="835" y="113" font-size="13.5" font-weight="700" fill="#263238" text-anchor="middle">Orphan File Reviewer</text>
+<line x1="720" y1="134" x2="720" y2="1522" stroke="#B0BEC5" stroke-dasharray="4 4"/>
+<rect x="958" y="90" width="214" height="36" rx="7" fill="#E6E9EC" stroke="#78909C" stroke-width="2"/>
+<text x="1065" y="113" font-size="13.5" font-weight="700" fill="#263238" text-anchor="middle">Program Manager</text>
+<line x1="950" y1="134" x2="950" y2="1522" stroke="#B0BEC5" stroke-dasharray="4 4"/>
+<rect x="1180" y="134" width="230" height="1382" fill="#F7F9FA"/>
+<rect x="1188" y="90" width="214" height="36" rx="7" fill="#E6E9EC" stroke="#78909C" stroke-width="2"/>
+<text x="1295" y="113" font-size="13.5" font-weight="700" fill="#263238" text-anchor="middle">Sponsorship Coordinator</text>
+<line x1="1180" y1="134" x2="1180" y2="1522" stroke="#B0BEC5" stroke-dasharray="4 4"/>
+<path d="M145,227 L145,242 L375,242 L375,280" fill="none" stroke="#B07A00" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#arE)"/>
+<path d="M375,332 L375,377" fill="none" stroke="#455A64" stroke-width="1.3" stroke-linejoin="round" marker-end="url(#ar)"/>
+<path d="M375,443 L375,450 L605,450 L605,488" fill="none" stroke="#455A64" stroke-width="1.3" stroke-linejoin="round" marker-end="url(#ar)"/>
+<path d="M300,410 L260,410 L260,202 L233,202" fill="none" stroke="#B07A00" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#arE)"/>
+<path d="M605,540 L605,554 L145,554 L145,592" fill="none" stroke="#B07A00" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#arE)"/>
+<path d="M145,644 L145,658 L605,658 L605,696" fill="none" stroke="#455A64" stroke-width="1.3" stroke-linejoin="round" marker-end="url(#ar)"/>
+<path d="M605,748 L605,762 L145,762 L145,800" fill="none" stroke="#455A64" stroke-width="1.3" stroke-linejoin="round" marker-end="url(#ar)"/>
+<path d="M145,852 L145,866 L835,866 L835,904" fill="none" stroke="#B07A00" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#arE)"/>
+<path d="M835,956 L835,1001" fill="none" stroke="#455A64" stroke-width="1.3" stroke-linejoin="round" marker-end="url(#ar)"/>
+<path d="M760,1034 L145,1034 L145,1112" fill="none" stroke="#B07A00" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#arE)"/>
+<path d="M835,1067 L835,1074 L605,1074 L605,1105" fill="none" stroke="#455A64" stroke-width="1.3" stroke-linejoin="round" marker-end="url(#ar)"/>
+<path d="M233,1138 L251,1138 L251,930 L747,930" fill="none" stroke="#B07A00" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#arE)"/>
+<path d="M605,1171 L605,1178 L835,1178 L835,1216" fill="none" stroke="#455A64" stroke-width="1.3" stroke-linejoin="round" marker-end="url(#ar)"/>
+<path d="M680,1138 L1065,1138 L1065,1209" fill="none" stroke="#B07A00" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#arE)"/>
+<path d="M835,1268 L835,1282 L605,1282 L605,1320" fill="none" stroke="#455A64" stroke-width="1.3" stroke-linejoin="round" marker-end="url(#ar)"/>
+<path d="M990,1242 L950,1242 L950,1292 L605,1292 L605,1320" fill="none" stroke="#455A64" stroke-width="1.3" stroke-linejoin="round" marker-end="url(#ar)"/>
+<path d="M1065,1275 L1065,1323" fill="none" stroke="#B07A00" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#arE)"/>
+<path d="M605,1372 L605,1386 L1295,1386 L1295,1427" fill="none" stroke="#B07A00" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#arE)"/>
+<rect x="57" y="177" width="176" height="50" rx="25" fill="#E6F4EA" stroke="#2E7D32" stroke-width="1.4"/>
+<text x="145" y="198.82" font-size="12" fill="#212121" text-anchor="middle">Submit partner agreements</text>
+<text x="145" y="213.82" font-size="12" fill="#212121" text-anchor="middle">&amp; compliance documents</text>
+<rect x="287" y="280" width="176" height="52" rx="4" fill="#FFFFFF" stroke="#37474F" stroke-width="1.4"/>
+<text x="375" y="302.82" font-size="12" fill="#212121" text-anchor="middle">Review agreements &amp;</text>
+<text x="375" y="317.82" font-size="12" fill="#212121" text-anchor="middle">compliance requirements</text>
+<path d="M375,377 L450,410 L375,443 L300,410 z" fill="#E8F0FE" stroke="#4A73C9" stroke-width="1.4"/>
+<text x="375" y="406.96" font-size="11" fill="#212121" text-anchor="middle">Approve</text>
+<text x="375" y="420.96" font-size="11" fill="#212121" text-anchor="middle">partner?</text>
+<rect x="517" y="488" width="176" height="52" rx="4" fill="#FFFFFF" stroke="#37474F" stroke-width="1.4"/>
+<text x="605" y="510.82" font-size="12" fill="#212121" text-anchor="middle">Activate partner</text>
+<text x="605" y="525.82" font-size="12" fill="#212121" text-anchor="middle">registration access</text>
+<rect x="57" y="592" width="176" height="52" rx="4" fill="#FFFFFF" stroke="#37474F" stroke-width="1.4"/>
+<text x="145" y="614.82" font-size="12" fill="#212121" text-anchor="middle">Create intake form or</text>
+<text x="145" y="629.82" font-size="12" fill="#212121" text-anchor="middle">upload bulk Excel</text>
+<rect x="517" y="696" width="176" height="52" rx="4" fill="#FFFFFF" stroke="#37474F" stroke-width="1.4"/>
+<text x="605" y="718.82" font-size="12" fill="#212121" text-anchor="middle">Validate data &amp;</text>
+<text x="605" y="733.82" font-size="12" fill="#212121" text-anchor="middle">detect duplicates</text>
+<rect x="57" y="800" width="176" height="52" rx="4" fill="#FFFFFF" stroke="#37474F" stroke-width="1.4"/>
+<text x="145" y="830.32" font-size="12" fill="#212121" text-anchor="middle">Submit intake</text>
+<rect x="747" y="904" width="176" height="52" rx="4" fill="#FFFFFF" stroke="#37474F" stroke-width="1.4"/>
+<text x="835" y="926.82" font-size="12" fill="#212121" text-anchor="middle">Review personal, family</text>
+<text x="835" y="941.82" font-size="12" fill="#212121" text-anchor="middle">info &amp; documents</text>
+<path d="M835,1001 L910,1034 L835,1067 L760,1034 z" fill="#E8F0FE" stroke="#4A73C9" stroke-width="1.4"/>
+<text x="835" y="1030.96" font-size="11" fill="#212121" text-anchor="middle">Complete &amp;</text>
+<text x="835" y="1044.96" font-size="11" fill="#212121" text-anchor="middle">correct?</text>
+<rect x="57" y="1112" width="176" height="52" rx="4" fill="#FFFFFF" stroke="#37474F" stroke-width="1.4"/>
+<text x="145" y="1134.82" font-size="12" fill="#212121" text-anchor="middle">Correct &amp;</text>
+<text x="145" y="1149.82" font-size="12" fill="#212121" text-anchor="middle">resubmit</text>
+<path d="M605,1105 L680,1138 L605,1171 L530,1138 z" fill="#E8F0FE" stroke="#4A73C9" stroke-width="1.4"/>
+<text x="605" y="1134.96" font-size="11" fill="#212121" text-anchor="middle">Reviewer has</text>
+<text x="605" y="1148.96" font-size="11" fill="#212121" text-anchor="middle">approval right?</text>
+<rect x="747" y="1216" width="176" height="52" rx="4" fill="#FFFFFF" stroke="#37474F" stroke-width="1.4"/>
+<text x="835" y="1238.82" font-size="12" fill="#212121" text-anchor="middle">Approve directly</text>
+<text x="835" y="1253.82" font-size="12" fill="#212121" text-anchor="middle">(Scenario A)</text>
+<path d="M1065,1209 L1140,1242 L1065,1275 L990,1242 z" fill="#E8F0FE" stroke="#4A73C9" stroke-width="1.4"/>
+<text x="1065" y="1238.96" font-size="11" fill="#212121" text-anchor="middle">Approve record?</text>
+<text x="1065" y="1252.96" font-size="11" fill="#212121" text-anchor="middle">(Scenario B)</text>
+<rect x="517" y="1320" width="176" height="52" rx="4" fill="#FFFFFF" stroke="#37474F" stroke-width="1.4"/>
+<text x="605" y="1342.82" font-size="12" fill="#212121" text-anchor="middle">Generate Orphan ID</text>
+<text x="605" y="1357.82" font-size="12" fill="#212121" text-anchor="middle">&amp; Orphan Profile</text>
+<rect x="977" y="1323" width="176" height="46" rx="23" fill="#FDE2E1" stroke="#C0392B" stroke-width="1.4"/>
+<text x="1065" y="1342.82" font-size="12" fill="#212121" text-anchor="middle">Returned / Rejected</text>
+<text x="1065" y="1357.82" font-size="12" fill="#212121" text-anchor="middle">(history kept)</text>
+<rect x="1207" y="1427" width="176" height="46" rx="23" fill="#E6F4EA" stroke="#2E7D32" stroke-width="1.4"/>
+<text x="1295" y="1446.82" font-size="12" fill="#212121" text-anchor="middle">Orphan enters</text>
+<text x="1295" y="1461.82" font-size="12" fill="#212121" text-anchor="middle">matching pool</text>
+<g><rect x="195.95" y="233" width="128.10000000000002" height="18" rx="9" fill="#FFE8A3" stroke="#D49B00"/><text x="260" y="245.6" font-size="10.5" font-weight="600" fill="#5D4200" text-anchor="middle">⚡ Partner Submitted</text></g>
+<text x="381" y="457" font-size="10.5" font-weight="600" fill="#455A64" text-anchor="start">Yes</text>
+<text x="292" y="404" font-size="10.5" font-weight="600" fill="#455A64" text-anchor="end">No</text>
+<g><rect x="198.9" y="349" width="122.2" height="18" rx="9" fill="#FFE8A3" stroke="#D49B00"/><text x="260" y="361.6" font-size="10.5" font-weight="600" fill="#5D4200" text-anchor="middle">⚡ Partner Rejected</text></g>
+<g><rect x="313.9" y="545" width="122.2" height="18" rx="9" fill="#FFE8A3" stroke="#D49B00"/><text x="375" y="557.6" font-size="10.5" font-weight="600" fill="#5D4200" text-anchor="middle">⚡ Partner Approved</text></g>
+<text x="611" y="762" font-size="10.5" font-weight="600" fill="#455A64" text-anchor="start">Valid rows</text>
+<g><rect x="428.9" y="857" width="122.2" height="18" rx="9" fill="#FFE8A3" stroke="#D49B00"/><text x="490" y="869.6" font-size="10.5" font-weight="600" fill="#5D4200" text-anchor="middle">⚡ Intake Submitted</text></g>
+<text x="752" y="1028" font-size="10.5" font-weight="600" fill="#455A64" text-anchor="end">No</text>
+<g><rect x="394.35" y="1025" width="116.30000000000001" height="18" rx="9" fill="#FFE8A3" stroke="#D49B00"/><text x="452.5" y="1037.6" font-size="10.5" font-weight="600" fill="#5D4200" text-anchor="middle">⚡ Intake Returned</text></g>
+<text x="841" y="1081" font-size="10.5" font-weight="600" fill="#455A64" text-anchor="start">Yes</text>
+<g><rect x="432" y="921" width="134" height="18" rx="9" fill="#FFE8A3" stroke="#D49B00"/><text x="499" y="933.6" font-size="10.5" font-weight="600" fill="#5D4200" text-anchor="middle">⚡ Intake Resubmitted</text></g>
+<text x="611" y="1185" font-size="10.5" font-weight="600" fill="#455A64" text-anchor="start">Yes</text>
+<text x="688" y="1132" font-size="10.5" font-weight="600" fill="#455A64" text-anchor="start">No</text>
+<g><rect x="793.7" y="1129" width="157.60000000000002" height="18" rx="9" fill="#FFE8A3" stroke="#D49B00"/><text x="872.5" y="1141.6" font-size="10.5" font-weight="600" fill="#5D4200" text-anchor="middle">⚡ Verification Completed</text></g>
+<text x="982" y="1236" font-size="10.5" font-weight="600" fill="#455A64" text-anchor="end">Yes</text>
+<text x="1071" y="1289" font-size="10.5" font-weight="600" fill="#455A64" text-anchor="start">No</text>
+<g><rect x="1006.85" y="1285" width="116.30000000000001" height="18" rx="9" fill="#FFE8A3" stroke="#D49B00"/><text x="1065" y="1297.6" font-size="10.5" font-weight="600" fill="#5D4200" text-anchor="middle">⚡ Orphan Rejected</text></g>
+<g><rect x="891.85" y="1377" width="116.30000000000001" height="18" rx="9" fill="#FFE8A3" stroke="#D49B00"/><text x="950" y="1389.6" font-size="10.5" font-weight="600" fill="#5D4200" text-anchor="middle">⚡ Orphan Approved</text></g>
+<text x="30" y="1520" font-size="11" fill="#607D8B">Rules: only approved partners submit (BR-002) · bulk import never bypasses verification · returned records keep history · reviewer approval right is configurable (W-01).</text>
+</svg>

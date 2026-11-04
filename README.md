@@ -15,6 +15,7 @@ Partners and country offices register orphans through a controlled intake proces
 | `Overview.md` | Problem, goals, stakeholders, and high-level flow |
 | `Ref_documentations/` | Product, business, workflow, technical, data, UI/UX, security, QA, timeline, and risk documentation |
 | `Ref_documentations/Workflow-Events.md` | Stakeholder swimlane flowcharts and the notification event catalogue |
+| `Ref_documentations/diagrams/` | Swimlane flowcharts as SVG images (one per workflow) |
 | `Before review/` | Early project notes and review material |
 
 ## Core flow
