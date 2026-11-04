@@ -48,4 +48,4 @@ An orphan record moves through clear statuses:
 
 ## 5. Target Outcome
 
-A development team should be able to use this documentation to design, implement, test, and deploy the initial release without relying on undocumented assumptions, once the pending decisions in `Risk-assumption.md` are confirmed.
+A development team should be able to use this documentation to estimate, design, implement, test, and deploy the initial release without relying on undocumented assumptions, once the pending decisions in `Risk-assumption.md` are confirmed.

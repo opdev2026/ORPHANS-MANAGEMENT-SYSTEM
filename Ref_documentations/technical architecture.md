@@ -105,7 +105,7 @@ Workflow action --> Domain event --> Notification rules --> Recipients (role + s
 
 - Separate development, staging, and production environments.
 - Containerized services with infrastructure as code.
-- Regular backups with tested restore.
+- Daily backups with tested restore.
 
 ## 9. Security Architecture
 
