@@ -20,7 +20,6 @@
 | `Security-Privacy.md` | Security and privacy controls |
 | `Roles-Permissions.md` | Role and permission matrix |
 | `Testing-QA.md` | Testing strategy and acceptance criteria |
-| `Timeline.md` | Delivery plan and milestones |
 | `Risk-assumption.md` | Risks, assumptions, dependencies, and pending decisions |
 
-These documents should be read together. Where requirements conflict, the approved BRD and Workflow & Permission Matrix take precedence over implementation assumptions. Technical documents (model, architecture, API, timeline) are proposals for review by the development team.
+These documents should be read together. Where requirements conflict, the approved BRD and Workflow & Permission Matrix take precedence over implementation assumptions. Technical documents (model, architecture, API) are proposals for review by the development team.

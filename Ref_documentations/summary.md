@@ -49,7 +49,3 @@ An orphan record moves through clear statuses:
 ## 5. Target Outcome
 
 A development team should be able to use this documentation to estimate, design, implement, test, and deploy the initial release without relying on undocumented assumptions, once the pending decisions in `Risk-assumption.md` are confirmed.
-
-## 6. Indicative Delivery
-
-Target initial release: approximately 20 weeks from kickoff, subject to confirmation of pending business decisions and PMO platform dependencies.
