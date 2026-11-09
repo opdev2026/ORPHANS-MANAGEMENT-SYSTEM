@@ -39,6 +39,8 @@ See `Security-Privacy.md`.
 
 - Every critical action recorded (Workflow Matrix Part 7).
 - Audit log append-only and retained per policy.
+- Profile version history retained without permanent deletion.
+- Permission changes and sensitive data access recorded.
 
 ## 8. Usability
 

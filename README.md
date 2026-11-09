@@ -35,5 +35,7 @@ Donor Care owns all donor relationship activity and coordinates with OMS without
 - Transferred funds are never assumed delivered; proof of delivery is mandatory.
 - Only approved, privacy-reviewed information is shared with sponsors.
 - Termination never deletes sponsorship or financial history.
+- Approved annual reports keep the Orphan Profile current; previous versions are always retained.
+- Access to a profile does not grant access to all of it: permissions apply per section and per field.
 
 *Project: Baitulmaal Orphan Management System | Version 1.0 | 11.04.2026*

@@ -1,84 +1,112 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1324" viewBox="0 0 1440 1324" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="1670" height="1324" viewBox="0 0 1670 1324" font-family="Segoe UI, Helvetica, Arial, sans-serif">
 <defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#455A64"/></marker><marker id="arE" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#B07A00"/></marker></defs>
 <rect width="100%" height="100%" fill="#FFFFFF"/>
-<text x="30" y="34" font-size="20" font-weight="700" fill="#263238">5. Annual Progress Report &amp; Donor Email (July cycle)</text>
+<text x="30" y="34" font-size="20" font-weight="700" fill="#263238">5. Annual Progress Report, Profile Update &amp; Donor Email (July cycle)</text>
 <g transform="translate(30,64)"><rect x="0" y="-9" width="26" height="14" rx="2" fill="#fff" stroke="#37474F"/><text x="34" y="2" font-size="11.5" fill="#455A64">Step</text></g>
 <g transform="translate(115.6,64)"><path d="M13,-11 L26,-2 L13,7 L0,-2 z" fill="#E8F0FE" stroke="#4A73C9"/><text x="34" y="2" font-size="11.5" fill="#455A64">Decision</text></g>
 <g transform="translate(226.8,64)"><rect x="0" y="-9" width="26" height="14" rx="7" fill="#E6F4EA" stroke="#2E7D32"/><text x="34" y="2" font-size="11.5" fill="#455A64">Start / end</text></g>
 <g transform="translate(357.20000000000005,64)"><rect x="0" y="-9" width="26" height="14" rx="7" fill="#FFE8A3" stroke="#D49B00"/><text x="34" y="2" font-size="11.5" fill="#455A64">Notification event (sent to the next lane)</text></g>
 <g transform="translate(686,64)"><line x1="0" y1="-2" x2="26" y2="-2" stroke="#B07A00" stroke-width="1.6" marker-end="url(#arE)"/><text x="34" y="2" font-size="11.5" fill="#455A64">Hand-over with event</text></g>
 <rect x="38" y="90" width="214" height="36" rx="7" fill="#E6E9EC" stroke="#78909C" stroke-width="2"/>
-<text x="145" y="113" font-size="13.5" font-weight="700" fill="#263238" text-anchor="middle">OMS System</text>
+<text x="145" y="113" font-size="13.5" font-weight="700" fill="#263238" text-anchor="middle">OMS System: Profile Versioning</text>
 <rect x="260" y="134" width="230" height="1174" fill="#F7F9FA"/>
 <rect x="268" y="90" width="214" height="36" rx="7" fill="#E6E9EC" stroke="#78909C" stroke-width="2"/>
-<text x="375" y="113" font-size="13.5" font-weight="700" fill="#263238" text-anchor="middle">Program Management</text>
+<text x="375" y="113" font-size="13.5" font-weight="700" fill="#263238" text-anchor="middle">OMS System</text>
 <line x1="260" y1="134" x2="260" y2="1314" stroke="#B0BEC5" stroke-dasharray="4 4"/>
 <rect x="498" y="90" width="214" height="36" rx="7" fill="#E6E9EC" stroke="#78909C" stroke-width="2"/>
-<text x="605" y="113" font-size="13.5" font-weight="700" fill="#263238" text-anchor="middle">Field Office Manager</text>
+<text x="605" y="113" font-size="13.5" font-weight="700" fill="#263238" text-anchor="middle">Program Management</text>
 <line x1="490" y1="134" x2="490" y2="1314" stroke="#B0BEC5" stroke-dasharray="4 4"/>
 <rect x="720" y="134" width="230" height="1174" fill="#F7F9FA"/>
 <rect x="728" y="90" width="214" height="36" rx="7" fill="#E6E9EC" stroke="#78909C" stroke-width="2"/>
-<text x="835" y="113" font-size="13.5" font-weight="700" fill="#263238" text-anchor="middle">Field Officer</text>
+<text x="835" y="113" font-size="13.5" font-weight="700" fill="#263238" text-anchor="middle">Field Office Manager</text>
 <line x1="720" y1="134" x2="720" y2="1314" stroke="#B0BEC5" stroke-dasharray="4 4"/>
 <rect x="958" y="90" width="214" height="36" rx="7" fill="#E6E9EC" stroke="#78909C" stroke-width="2"/>
-<text x="1065" y="113" font-size="13.5" font-weight="700" fill="#263238" text-anchor="middle">Privacy Reviewer</text>
+<text x="1065" y="113" font-size="13.5" font-weight="700" fill="#263238" text-anchor="middle">Field Officer</text>
 <line x1="950" y1="134" x2="950" y2="1314" stroke="#B0BEC5" stroke-dasharray="4 4"/>
 <rect x="1180" y="134" width="230" height="1174" fill="#F7F9FA"/>
 <rect x="1188" y="90" width="214" height="36" rx="7" fill="#E6E9EC" stroke="#78909C" stroke-width="2"/>
-<text x="1295" y="113" font-size="13.5" font-weight="700" fill="#263238" text-anchor="middle">Sponsor</text>
+<text x="1295" y="113" font-size="13.5" font-weight="700" fill="#263238" text-anchor="middle">Privacy Reviewer</text>
 <line x1="1180" y1="134" x2="1180" y2="1314" stroke="#B0BEC5" stroke-dasharray="4 4"/>
-<path d="M145,227 L145,242 L375,242 L375,280" fill="none" stroke="#455A64" stroke-width="1.3" stroke-linejoin="round" marker-end="url(#ar)"/>
-<path d="M375,332 L375,346 L605,346 L605,384" fill="none" stroke="#B07A00" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#arE)"/>
-<path d="M605,436 L605,450 L835,450 L835,488" fill="none" stroke="#B07A00" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#arE)"/>
-<path d="M835,540 L835,592" fill="none" stroke="#455A64" stroke-width="1.3" stroke-linejoin="round" marker-end="url(#ar)"/>
-<path d="M835,644 L835,696" fill="none" stroke="#455A64" stroke-width="1.3" stroke-linejoin="round" marker-end="url(#ar)"/>
-<path d="M835,748 L835,762 L375,762 L375,793" fill="none" stroke="#B07A00" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#arE)"/>
-<path d="M450,826 L490,826 L490,618 L747,618" fill="none" stroke="#B07A00" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#arE)"/>
-<path d="M375,859 L375,866 L145,866 L145,904" fill="none" stroke="#455A64" stroke-width="1.3" stroke-linejoin="round" marker-end="url(#ar)"/>
-<path d="M145,956 L145,970 L1065,970 L1065,1001" fill="none" stroke="#B07A00" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#arE)"/>
-<path d="M990,1034 L950,1034 L950,930 L233,930" fill="none" stroke="#455A64" stroke-width="1.3" stroke-linejoin="round" marker-end="url(#ar)"/>
-<path d="M1065,1067 L1065,1074 L145,1074 L145,1112" fill="none" stroke="#455A64" stroke-width="1.3" stroke-linejoin="round" marker-end="url(#ar)"/>
-<path d="M145,1164 L145,1178 L1295,1178 L1295,1219" fill="none" stroke="#B07A00" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#arE)"/>
-<rect x="57" y="177" width="176" height="50" rx="25" fill="#E6F4EA" stroke="#2E7D32" stroke-width="1.4"/>
-<text x="145" y="198.82" font-size="12" fill="#212121" text-anchor="middle">July 1: list all</text>
-<text x="145" y="213.82" font-size="12" fill="#212121" text-anchor="middle">sponsored orphans</text>
-<rect x="287" y="280" width="176" height="52" rx="4" fill="#FFFFFF" stroke="#37474F" stroke-width="1.4"/>
-<text x="375" y="310.32" font-size="12" fill="#212121" text-anchor="middle">Initiate reporting cycle</text>
-<rect x="517" y="384" width="176" height="52" rx="4" fill="#FFFFFF" stroke="#37474F" stroke-width="1.4"/>
-<text x="605" y="406.82" font-size="12" fill="#212121" text-anchor="middle">Assign orphans</text>
-<text x="605" y="421.82" font-size="12" fill="#212121" text-anchor="middle">to field officers</text>
-<rect x="747" y="488" width="176" height="52" rx="4" fill="#FFFFFF" stroke="#37474F" stroke-width="1.4"/>
-<text x="835" y="518.32" font-size="12" fill="#212121" text-anchor="middle">Visit orphan &amp; family</text>
-<rect x="747" y="592" width="176" height="52" rx="4" fill="#FFFFFF" stroke="#37474F" stroke-width="1.4"/>
-<text x="835" y="614.82" font-size="12" fill="#212121" text-anchor="middle">Record education, health,</text>
-<text x="835" y="629.82" font-size="12" fill="#212121" text-anchor="middle">social progress + media</text>
-<rect x="747" y="696" width="176" height="52" rx="4" fill="#FFFFFF" stroke="#37474F" stroke-width="1.4"/>
-<text x="835" y="726.32" font-size="12" fill="#212121" text-anchor="middle">Submit progress report</text>
-<path d="M375,793 L450,826 L375,859 L300,826 z" fill="#E8F0FE" stroke="#4A73C9" stroke-width="1.4"/>
-<text x="375" y="822.96" font-size="11" fill="#212121" text-anchor="middle">Complete &amp;</text>
-<text x="375" y="836.96" font-size="11" fill="#212121" text-anchor="middle">approved?</text>
+<rect x="1418" y="90" width="214" height="36" rx="7" fill="#E6E9EC" stroke="#78909C" stroke-width="2"/>
+<text x="1525" y="113" font-size="13.5" font-weight="700" fill="#263238" text-anchor="middle">Sponsor</text>
+<line x1="1410" y1="134" x2="1410" y2="1314" stroke="#B0BEC5" stroke-dasharray="4 4"/>
+<path d="M375,227 L375,242 L605,242 L605,280" fill="none" stroke="#455A64" stroke-width="1.3" stroke-linejoin="round" marker-end="url(#ar)"/>
+<path d="M605,332 L605,346 L835,346 L835,384" fill="none" stroke="#B07A00" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#arE)"/>
+<path d="M835,436 L835,450 L1065,450 L1065,488" fill="none" stroke="#B07A00" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#arE)"/>
+<path d="M1065,540 L1065,592" fill="none" stroke="#455A64" stroke-width="1.3" stroke-linejoin="round" marker-end="url(#ar)"/>
+<path d="M1065,644 L1065,696" fill="none" stroke="#455A64" stroke-width="1.3" stroke-linejoin="round" marker-end="url(#ar)"/>
+<path d="M1065,748 L1065,762 L605,762 L605,793" fill="none" stroke="#B07A00" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#arE)"/>
+<path d="M680,826 L720,826 L720,618 L977,618" fill="none" stroke="#B07A00" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#arE)"/>
+<path d="M530,826 L145,826 L145,904" fill="none" stroke="#455A64" stroke-width="1.3" stroke-linejoin="round" marker-end="url(#ar)"/>
+<path d="M605,859 L605,866 L375,866 L375,904" fill="none" stroke="#455A64" stroke-width="1.3" stroke-linejoin="round" marker-end="url(#ar)"/>
+<path d="M145,956 L145,1001" fill="none" stroke="#455A64" stroke-width="1.3" stroke-linejoin="round" marker-end="url(#ar)"/>
+<path d="M220,1034 L287,1034" fill="none" stroke="#B07A00" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#arE)"/>
+<path d="M145,1067 L145,1112" fill="none" stroke="#455A64" stroke-width="1.3" stroke-linejoin="round" marker-end="url(#ar)"/>
+<path d="M145,1164 L145,1219" fill="none" stroke="#B07A00" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#arE)"/>
+<path d="M375,956 L375,970 L1295,970 L1295,1001" fill="none" stroke="#B07A00" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#arE)"/>
+<path d="M1220,1034 L1180,1034 L1180,930 L463,930" fill="none" stroke="#455A64" stroke-width="1.3" stroke-linejoin="round" marker-end="url(#ar)"/>
+<path d="M1295,1067 L1295,1074 L375,1074 L375,1112" fill="none" stroke="#455A64" stroke-width="1.3" stroke-linejoin="round" marker-end="url(#ar)"/>
+<path d="M375,1164 L375,1178 L1525,1178 L1525,1219" fill="none" stroke="#B07A00" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#arE)"/>
+<rect x="287" y="177" width="176" height="50" rx="25" fill="#E6F4EA" stroke="#2E7D32" stroke-width="1.4"/>
+<text x="375" y="198.82" font-size="12" fill="#212121" text-anchor="middle">July 1: list all</text>
+<text x="375" y="213.82" font-size="12" fill="#212121" text-anchor="middle">sponsored orphans</text>
+<rect x="517" y="280" width="176" height="52" rx="4" fill="#FFFFFF" stroke="#37474F" stroke-width="1.4"/>
+<text x="605" y="310.32" font-size="12" fill="#212121" text-anchor="middle">Initiate reporting cycle</text>
+<rect x="747" y="384" width="176" height="52" rx="4" fill="#FFFFFF" stroke="#37474F" stroke-width="1.4"/>
+<text x="835" y="406.82" font-size="12" fill="#212121" text-anchor="middle">Assign orphans</text>
+<text x="835" y="421.82" font-size="12" fill="#212121" text-anchor="middle">to field officers</text>
+<rect x="977" y="488" width="176" height="52" rx="4" fill="#FFFFFF" stroke="#37474F" stroke-width="1.4"/>
+<text x="1065" y="518.32" font-size="12" fill="#212121" text-anchor="middle">Visit orphan &amp; family</text>
+<rect x="977" y="592" width="176" height="52" rx="4" fill="#FFFFFF" stroke="#37474F" stroke-width="1.4"/>
+<text x="1065" y="614.82" font-size="12" fill="#212121" text-anchor="middle">Record education, health,</text>
+<text x="1065" y="629.82" font-size="12" fill="#212121" text-anchor="middle">social progress + media</text>
+<rect x="977" y="696" width="176" height="52" rx="4" fill="#FFFFFF" stroke="#37474F" stroke-width="1.4"/>
+<text x="1065" y="726.32" font-size="12" fill="#212121" text-anchor="middle">Submit progress report</text>
+<path d="M605,793 L680,826 L605,859 L530,826 z" fill="#E8F0FE" stroke="#4A73C9" stroke-width="1.4"/>
+<text x="605" y="822.96" font-size="11" fill="#212121" text-anchor="middle">Complete &amp;</text>
+<text x="605" y="836.96" font-size="11" fill="#212121" text-anchor="middle">approved?</text>
 <rect x="57" y="904" width="176" height="52" rx="4" fill="#FFFFFF" stroke="#37474F" stroke-width="1.4"/>
-<text x="145" y="926.82" font-size="12" fill="#212121" text-anchor="middle">Generate donor version</text>
-<text x="145" y="941.82" font-size="12" fill="#212121" text-anchor="middle">(restricted data removed)</text>
-<path d="M1065,1001 L1140,1034 L1065,1067 L990,1034 z" fill="#E8F0FE" stroke="#4A73C9" stroke-width="1.4"/>
-<text x="1065" y="1030.96" font-size="11" fill="#212121" text-anchor="middle">Sensitive data</text>
-<text x="1065" y="1044.96" font-size="11" fill="#212121" text-anchor="middle">fully removed?</text>
+<text x="145" y="926.82" font-size="12" fill="#212121" text-anchor="middle">Map approved data to</text>
+<text x="145" y="941.82" font-size="12" fill="#212121" text-anchor="middle">profile fields</text>
+<rect x="287" y="904" width="176" height="52" rx="4" fill="#FFFFFF" stroke="#37474F" stroke-width="1.4"/>
+<text x="375" y="926.82" font-size="12" fill="#212121" text-anchor="middle">Generate donor version</text>
+<text x="375" y="941.82" font-size="12" fill="#212121" text-anchor="middle">(restricted data removed)</text>
+<path d="M145,1001 L220,1034 L145,1067 L70,1034 z" fill="#E8F0FE" stroke="#4A73C9" stroke-width="1.4"/>
+<text x="145" y="1030.96" font-size="11" fill="#212121" text-anchor="middle">Conflicting or</text>
+<text x="145" y="1044.96" font-size="11" fill="#212121" text-anchor="middle">unclear data?</text>
+<rect x="287" y="1011" width="176" height="46" rx="23" fill="#F1F3F4" stroke="#80868B" stroke-width="1.4"/>
+<text x="375" y="1030.82" font-size="12" fill="#212121" text-anchor="middle">Flagged for review</text>
+<text x="375" y="1045.82" font-size="12" fill="#212121" text-anchor="middle">(not overwritten)</text>
+<path d="M1295,1001 L1370,1034 L1295,1067 L1220,1034 z" fill="#E8F0FE" stroke="#4A73C9" stroke-width="1.4"/>
+<text x="1295" y="1030.96" font-size="11" fill="#212121" text-anchor="middle">Sensitive data</text>
+<text x="1295" y="1044.96" font-size="11" fill="#212121" text-anchor="middle">fully removed?</text>
 <rect x="57" y="1112" width="176" height="52" rx="4" fill="#FFFFFF" stroke="#37474F" stroke-width="1.4"/>
-<text x="145" y="1134.82" font-size="12" fill="#212121" text-anchor="middle">Send email &amp; record</text>
-<text x="145" y="1149.82" font-size="12" fill="#212121" text-anchor="middle">delivery status</text>
-<rect x="1207" y="1219" width="176" height="46" rx="23" fill="#E6F4EA" stroke="#2E7D32" stroke-width="1.4"/>
-<text x="1295" y="1238.82" font-size="12" fill="#212121" text-anchor="middle">Sponsor receives</text>
-<text x="1295" y="1253.82" font-size="12" fill="#212121" text-anchor="middle">approved report</text>
-<g><rect x="425.95" y="337" width="128.10000000000002" height="18" rx="9" fill="#FFE8A3" stroke="#D49B00"/><text x="490" y="349.6" font-size="10.5" font-weight="600" fill="#5D4200" text-anchor="middle">⚡ Annual Report Due</text></g>
-<g><rect x="655.95" y="441" width="128.10000000000002" height="18" rx="9" fill="#FFE8A3" stroke="#D49B00"/><text x="720" y="453.6" font-size="10.5" font-weight="600" fill="#5D4200" text-anchor="middle">⚡ Progress Assigned</text></g>
-<g><rect x="538" y="753" width="134" height="18" rx="9" fill="#FFE8A3" stroke="#D49B00"/><text x="605" y="765.6" font-size="10.5" font-weight="600" fill="#5D4200" text-anchor="middle">⚡ Progress Submitted</text></g>
-<text x="458" y="820" font-size="10.5" font-weight="600" fill="#455A64" text-anchor="start">Return</text>
-<g><rect x="554.45" y="609" width="128.10000000000002" height="18" rx="9" fill="#FFE8A3" stroke="#D49B00"/><text x="618.5" y="621.6" font-size="10.5" font-weight="600" fill="#5D4200" text-anchor="middle">⚡ Progress Returned</text></g>
-<text x="381" y="873" font-size="10.5" font-weight="600" fill="#455A64" text-anchor="start">Approve</text>
-<g><rect x="526.2" y="961" width="157.60000000000002" height="18" rx="9" fill="#FFE8A3" stroke="#D49B00"/><text x="605" y="973.6" font-size="10.5" font-weight="600" fill="#5D4200" text-anchor="middle">⚡ Privacy Review Pending</text></g>
-<text x="982" y="1028" font-size="10.5" font-weight="600" fill="#455A64" text-anchor="end">No</text>
-<text x="1071" y="1081" font-size="10.5" font-weight="600" fill="#455A64" text-anchor="start">Yes</text>
-<text x="151" y="1178" font-size="10.5" font-weight="600" fill="#455A64" text-anchor="start">Email</text>
-<g><rect x="673.65" y="1169" width="92.7" height="18" rx="9" fill="#FFE8A3" stroke="#D49B00"/><text x="720" y="1181.6" font-size="10.5" font-weight="600" fill="#5D4200" text-anchor="middle">⚡ Report Sent</text></g>
-<text x="30" y="1312" font-size="11" fill="#607D8B">Rules: mandatory for every sponsored orphan (BR-024) · starts in July (BR-025) · only approved, privacy-reviewed content is sent (BR-028) · failed delivery raises EVT-REPORT-DELIVERY-FAILED.</text>
+<text x="145" y="1134.82" font-size="12" fill="#212121" text-anchor="middle">Create new version;</text>
+<text x="145" y="1149.82" font-size="12" fill="#212121" text-anchor="middle">archive previous version</text>
+<rect x="287" y="1112" width="176" height="52" rx="4" fill="#FFFFFF" stroke="#37474F" stroke-width="1.4"/>
+<text x="375" y="1134.82" font-size="12" fill="#212121" text-anchor="middle">Authorized user sends</text>
+<text x="375" y="1149.82" font-size="12" fill="#212121" text-anchor="middle">email; status recorded</text>
+<rect x="57" y="1219" width="176" height="46" rx="23" fill="#E6F4EA" stroke="#2E7D32" stroke-width="1.4"/>
+<text x="145" y="1238.82" font-size="12" fill="#212121" text-anchor="middle">Profile Updated</text>
+<text x="145" y="1253.82" font-size="12" fill="#212121" text-anchor="middle">(history kept)</text>
+<rect x="1437" y="1219" width="176" height="46" rx="23" fill="#E6F4EA" stroke="#2E7D32" stroke-width="1.4"/>
+<text x="1525" y="1238.82" font-size="12" fill="#212121" text-anchor="middle">Sponsor receives</text>
+<text x="1525" y="1253.82" font-size="12" fill="#212121" text-anchor="middle">approved report</text>
+<g><rect x="655.95" y="337" width="128.10000000000002" height="18" rx="9" fill="#FFE8A3" stroke="#D49B00"/><text x="720" y="349.6" font-size="10.5" font-weight="600" fill="#5D4200" text-anchor="middle">⚡ Annual Report Due</text></g>
+<g><rect x="885.95" y="441" width="128.10000000000002" height="18" rx="9" fill="#FFE8A3" stroke="#D49B00"/><text x="950" y="453.6" font-size="10.5" font-weight="600" fill="#5D4200" text-anchor="middle">⚡ Progress Assigned</text></g>
+<g><rect x="768" y="753" width="134" height="18" rx="9" fill="#FFE8A3" stroke="#D49B00"/><text x="835" y="765.6" font-size="10.5" font-weight="600" fill="#5D4200" text-anchor="middle">⚡ Progress Submitted</text></g>
+<text x="688" y="820" font-size="10.5" font-weight="600" fill="#455A64" text-anchor="start">Return</text>
+<g><rect x="784.45" y="609" width="128.10000000000002" height="18" rx="9" fill="#FFE8A3" stroke="#D49B00"/><text x="848.5" y="621.6" font-size="10.5" font-weight="600" fill="#5D4200" text-anchor="middle">⚡ Progress Returned</text></g>
+<text x="522" y="820" font-size="10.5" font-weight="600" fill="#455A64" text-anchor="end">Final approval</text>
+<text x="611" y="873" font-size="10.5" font-weight="600" fill="#455A64" text-anchor="start">Approve</text>
+<text x="228" y="1028" font-size="10.5" font-weight="600" fill="#455A64" text-anchor="start">Yes</text>
+<g><rect x="174.7" y="981" width="157.60000000000002" height="18" rx="9" fill="#FFE8A3" stroke="#D49B00"/><text x="253.5" y="993.6" font-size="10.5" font-weight="600" fill="#5D4200" text-anchor="middle">⚡ Profile Update Flagged</text></g>
+<text x="151" y="1081" font-size="10.5" font-weight="600" fill="#455A64" text-anchor="start">No</text>
+<g><rect x="86.85" y="1181" width="116.30000000000001" height="18" rx="9" fill="#FFE8A3" stroke="#D49B00"/><text x="145" y="1193.6" font-size="10.5" font-weight="600" fill="#5D4200" text-anchor="middle">⚡ Profile Updated</text></g>
+<g><rect x="756.2" y="961" width="157.60000000000002" height="18" rx="9" fill="#FFE8A3" stroke="#D49B00"/><text x="835" y="973.6" font-size="10.5" font-weight="600" fill="#5D4200" text-anchor="middle">⚡ Privacy Review Pending</text></g>
+<text x="1212" y="1028" font-size="10.5" font-weight="600" fill="#455A64" text-anchor="end">No</text>
+<text x="1301" y="1081" font-size="10.5" font-weight="600" fill="#455A64" text-anchor="start">Yes</text>
+<text x="381" y="1178" font-size="10.5" font-weight="600" fill="#455A64" text-anchor="start">Email</text>
+<g><rect x="903.65" y="1169" width="92.7" height="18" rx="9" fill="#FFE8A3" stroke="#D49B00"/><text x="950" y="1181.6" font-size="10.5" font-weight="600" fill="#5D4200" text-anchor="middle">⚡ Report Sent</text></g>
+<text x="30" y="1312" font-size="11" fill="#607D8B">Rules: every sponsored orphan (BR-024) · starts in July (BR-025) · only privacy-reviewed content is sent (BR-028) · profile update does not depend on email delivery · failed delivery raises EVT-REPORT-DELIVERY-FAILED.</text>
 </svg>

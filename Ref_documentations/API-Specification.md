@@ -66,6 +66,14 @@ Authentication uses the PMO platform session/token. Every endpoint enforces role
 
 `GET /orphans/{orphanId}/history` — Sponsorships, activities, disbursements, visits, reports
 
+`GET /orphans/{orphanId}/versions` — Version history (authorized users)
+
+`GET /orphans/{orphanId}/versions/{version}` — Historical version
+
+`GET /orphans/{orphanId}/profile-update-flags`
+
+`POST /orphans/{orphanId}/profile-update-flags/{flagId}/resolve` — Authorized reviewer (`ACCEPT` / `DISCARD`)
+
 ## 7. Sponsors & Matching
 
 `GET /sponsors/available`
@@ -178,3 +186,13 @@ Bulk-import confirmation, matching runs, transfers, and email sending accept an 
 - Responses filter restricted fields by permission.
 - Donor Care endpoints never return orphan case data.
 - Every state-changing request is audited.
+
+## 20. Access Administration
+
+`GET /permission-groups` · `POST /permission-groups` · `PATCH /permission-groups/{groupId}` — Admin
+
+`PUT /users/{userId}/permissions` — Grant or revoke individual permissions (audited)
+
+`GET /profile-access-rules` · `PUT /profile-access-rules` — Section and field access
+
+Profile, document, report, list, and export responses are filtered by the same access rules.

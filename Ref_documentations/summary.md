@@ -37,6 +37,8 @@ An orphan record moves through clear statuses:
 - Orphan intake form and bulk Excel import with duplicate detection.
 - Verification with configurable approval authority.
 - Orphan Profile and unique Orphan ID.
+- Automatic profile updates from approved annual reports, with version history.
+- Section-level, field-level, and individual-user permissions.
 - Automated sponsor matching and audited manual override.
 - Renewal and termination monitoring coordinated with Donor Care.
 - General support activities with targets and beneficiary selection.
@@ -48,4 +50,4 @@ An orphan record moves through clear statuses:
 
 ## 5. Target Outcome
 
-A development team should be able to use this documentation to estimate, design, implement, test, and deploy the initial release without relying on undocumented assumptions, once the pending decisions in `Risk-assumption.md` are confirmed.
+A development team should be able to use this documentation to design, implement, test, and deploy the initial release without relying on undocumented assumptions, once the pending decisions in `Risk-assumption.md` are confirmed.

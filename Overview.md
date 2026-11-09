@@ -18,6 +18,8 @@ The platform provides:
 - Orphan intake through forms and bulk Excel import.
 - Verification and configurable approval of every orphan record.
 - A permanent Orphan Profile with a unique Orphan ID.
+- Automatic profile updates from approved annual reports, with full version history.
+- Section-level and field-level access to each Orphan Profile.
 - Automated sponsor matching with audited manual override.
 - Sponsorship renewal and termination monitoring, coordinated with Donor Care.
 - General support activities with beneficiary targets.
@@ -73,7 +75,7 @@ The system is designed around a simple principle: **every orphan has one verifie
 6. When a sponsor is available, the matching engine assigns a sponsor; the coordinator may override.
 7. Finance allocates and transfers funds; the Field Office Manager delivers them and uploads proof.
 8. Each quarter, the field office submits an expenditure report: Program Manager approves, then Central Finance.
-9. Each July, field teams collect annual progress; the report is approved, privacy-reviewed, and emailed to the sponsor.
+9. Each July, field teams collect annual progress; the report is approved, privacy-reviewed, and emailed to the sponsor. On final approval the system also updates the Orphan Profile and archives the previous version.
 10. Before expiry, OMS alerts Donor Care; Donor Care contacts the sponsor. Renewal is automatic unless cancelled.
 11. On termination, the orphan's eligibility is reviewed and the orphan returns to the matching pool.
 

@@ -73,6 +73,8 @@ Technology may be substituted to match the PMO platform, provided security, main
 - Emit a domain event for every workflow transition; the notification service maps events to recipients.
 - Run scheduled jobs: expiry threshold scan, July progress cycle, quarter-end report due, overdue follow-up, agreement expiry.
 - Generate donor-safe report versions excluding restricted fields.
+- Apply approved annual report data to Orphan Profiles, archive previous versions, and flag conflicts for review.
+- Evaluate section-level and field-level access consistently for pages, documents, reports, lists, and exports.
 - Write append-only audit entries.
 
 ## 5. Event-Driven Notifications

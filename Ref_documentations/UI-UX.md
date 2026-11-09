@@ -35,7 +35,9 @@
 
 ## 5. Orphan Profile
 
-Tabs: Overview · Family · Documents · Verification history · Sponsorship · General support · Finance · Field visits · Progress reports · Audit.
+Tabs: Overview · Family · Documents · Verification history · Sponsorship · General support · Finance · Field visits · Progress reports · Audit. · Version history.
+
+The tabs and fields shown depend on the user's section-level and field-level permissions. Version history compares previous and updated values and links to the source report. Conflicting report data appears as a flag for authorized review.
 
 ## 6. Sponsorship Console (SC)
 
@@ -82,3 +84,18 @@ Tabs: Overview · Family · Documents · Verification history · Sponsorship · 
 
 - Desktop-first for review, finance, and management consoles.
 - Mobile/tablet-ready for field officers.
+
+## 14. Operational Queues
+
+Each role sees pending work within its access scope:
+
+| Queue | Shows |
+|---|---|
+| Intake queue | Draft, submitted, under review, returned, approved |
+| Matching queue | Eligible orphans, sponsor capacity, matching results |
+| Sponsorship monitor | Active, expiring, renewal pending, cancelled, terminated |
+| Activity monitor | Status, target vs. actual beneficiaries, evidence |
+| Disbursement monitor | Allocated, transferred, delivered, pending, reconciled |
+| Progress reporting | Assignments, overdue reports, approvals, delivery status |
+| Finance approval queue | Reports awaiting program or finance review |
+| Audit & analytics | History of critical actions and consolidated reports |

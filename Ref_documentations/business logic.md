@@ -150,6 +150,7 @@ NOT_STARTED --> PENDING_ASSIGNMENT --> ASSIGNED --> IN_PROGRESS --> SUBMITTED --
 - Approval by the Program Manager; privacy review before sending (BR-028).
 - Email delivery status is recorded; failures can be retried.
 - Indicators are stored per year for historical comparison (BR-026).
+- Final approval triggers the automatic profile update (§15). Report approval and donor email delivery are separate actions.
 
 ## 12. Privacy
 
@@ -164,3 +165,30 @@ The donor version of any report must exclude: national identification numbers, d
 ## 14. Deletion
 
 Orphan, sponsorship, financial, report, and audit records are never hard-deleted. Records are closed, archived, or marked inactive. Draft intakes may be discarded by their creator before submission.
+
+## 15. Automated Profile Updates
+
+```text
+REPORT FINAL APPROVAL --> MAP APPROVED FIELDS --> conflicting or unclear data?
+                                                       |              |
+                                                       no             yes
+                                                       |              |
+                                                       v              v
+                                              NEW CURRENT VERSION   FLAGGED FOR AUTHORIZED REVIEW
+                                              (previous archived)   (value not overwritten)
+```
+
+- The update is triggered only after final approval by the Orphan Program Manager.
+- Only fields supported by the approved report may be updated; all other fields stay unchanged.
+- The update must not wait for, or depend on, successful donor email delivery.
+- Previous versions are archived, never overwritten or deleted.
+- Every version records previous values, updated values, source report, approval date, update timestamp, and the responsible user or system action.
+- On success the report's next status is `PROFILE_UPDATED`.
+
+## 16. Profile Access
+
+- Access to the profile never implies access to all sections or fields.
+- An effective permission combines role, permission group, individual grants or revocations, and country, office, partner, and record scope.
+- Individual grants and revocations can differ between users with the same role.
+- Permission assignments, modifications, revocations, and access to sensitive data are audited.
+- Donor Care has no access to Orphan Profiles or operational beneficiary information.

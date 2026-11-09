@@ -15,6 +15,10 @@
 - Country-, office-, partner-, and record-level scopes applied to every query.
 - Server-side enforcement only; the UI hiding an action is not a control.
 - Donor Care isolation from all orphan case data.
+- Section-level and field-level access within each Orphan Profile.
+- Individual grants and revocations on top of role permissions.
+- The same rules apply to profile pages, documents, reports, lists, exports, and system actions.
+- Every user sees and manages only what their responsibilities require.
 
 ## 3. Privileged Accounts
 
@@ -61,6 +65,8 @@
 - TLS in transit; encryption at rest for database and document storage.
 - Signed, time-limited URLs for documents and media.
 - Exports limited by permission and audited.
+- Access to sensitive data is recorded in the audit trail.
+- Archived profile versions carry the same restrictions as the live profile.
 - Backups encrypted.
 
 ## 9. Privacy Governance

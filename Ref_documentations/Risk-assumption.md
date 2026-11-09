@@ -10,6 +10,8 @@
 | Duplicate or fraudulent orphan records | High | Duplicate detection, document verification, approval workflow |
 | Funds transferred but not delivered | High | Separate delivered status, mandatory proof, reconciliation |
 | Unauthorized matching changes | High | Permission control, mandatory reason, audit |
+| Approved report data overwrites correct profile data | High | Field mapping, conflict flagging, version history |
+| Over-broad access to profile sections | High | Section and field permissions, access testing, audit |
 | Pending business rules delay development | High | Configurable rules, early decision workshop |
 | Poor data quality in migration | Medium | Validation, staged migration, reconciliation reports |
 | Weak connectivity in field offices | Medium | Mobile-friendly forms, resumable uploads |
@@ -24,6 +26,7 @@
 - Donor Care continues to own donor relationships in its own systems.
 - Email is the only donor communication channel for OMS in the initial release.
 - Sponsorship amounts and currencies follow approved policies.
+- The mapping between report indicators and profile fields will be defined with the final report templates (P-09).
 
 ## 3. Important Non-Assumption
 

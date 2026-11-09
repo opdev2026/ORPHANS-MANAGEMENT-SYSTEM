@@ -21,6 +21,8 @@
 
 **Legend:** V View · C Create · E Edit · S Submit · R Review · A Approve · J Reject · X Export · M Manage · — No access
 
+Deleting, uploading, and downloading are also separate, configurable permissions (BRD §15.1.1).
+
 ## 2. Main Module Permissions
 
 | Module / Function | CM | PM | RV | CO | PT | FM | FO | SC | DC | FN | CP | AD |
@@ -51,7 +53,27 @@
 `*` V* = limited to assigned records; A* = direct approval only when explicitly granted; E/M* = matching permissions configurable per user.  
 "Donor-side" = donor records and communication only, never orphan operational records.
 
-## 3. Configurable Individual Permissions
+## 3. Orphan Profile Section-Level Permissions
+
+Proposed default access boundaries (Workflow & Permission Matrix §3.2.1). All entries are configurable at role and individual-user level, with country, office, partner, and record restrictions applied where relevant.
+
+| Profile Section | Orphan Management | Partner | Finance | Field Team | Reviewer | Donor Care |
+|---|---|---|---|---|---|---|
+| Personal & Demographic Information | Configurable | Assigned Records Only | Restricted | Assigned Records | Review | No Access |
+| Family & Household Information | Configurable | Assigned Records Only | No Access | Assigned Records | Review | No Access |
+| Supporting Documents | Configurable | Permitted Documents Only | Financial Evidence | Upload / Assigned Records | Review | No Access |
+| Health Information | Authorized Access | Restricted | No Access | Assigned / Authorized | Authorized Review | No Access |
+| Educational Information | Authorized Access | Restricted | No Access | Assigned / Authorized | Authorized Review | No Access |
+| Verification Records | View / Manage | Own Submissions | No Access | Restricted | Review / Approve* | No Access |
+| Sponsorship Information | View / Manage | Restricted | Relevant Financial Data | Assigned Information | Restricted | No Access |
+| Financial & Disbursement Records | Authorized Access | No Access | View / Manage | Delivery Evidence | Restricted | No Access |
+| Field Visits & Follow-up | Authorized Access | No Access | No Access | Assigned Records | Authorized Review | No Access |
+| Annual Progress Reports | View / Manage | Restricted | No Access | Submit / Update | Review / Approve* | No Access |
+| Case Status & History | Authorized Access | Limited | Financial History Only | Assigned Information | Review History | No Access |
+
+`*` Approval permissions follow the configurable approval authority rules.
+
+## 4. Configurable Individual Permissions
 
 | Permission | Default | Purpose |
 |---|---|---|
@@ -60,10 +82,12 @@
 | `report.privacy_review` | Pending W-06 | Authorized privacy reviewer |
 | `report.send_email` | PM / authorized OMS user (W-09) | Send approved donor reports |
 
-## 4. Rules
+## 5. Rules
 
 - Review and approval are separate permissions; reviewing never implies approving.
 - Administrators manage configuration but receive no business approval authority or unrestricted sensitive data access by default.
 - Donor Care has no access to orphan profiles, family data, documents, field reports, or case functions.
 - Two users with the same role may have different scopes (country, office, assigned records).
+- Access to the overall profile does not grant access to every section or field.
+- Administrators can assign, modify, or revoke permissions for individual users; every change is audited.
 - Permissions must be enforced by the backend.

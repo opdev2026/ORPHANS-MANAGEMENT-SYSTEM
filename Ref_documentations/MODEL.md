@@ -44,6 +44,7 @@
 | userId | UUID | Yes | Primary key |
 | email | string | Yes | Login identifier |
 | roles | enum[] | Yes | R01–R12 (see `Roles-Permissions.md`) |
+| permissionGroupIds | UUID[] | No | Configurable permission groups |
 | permissionOverrides | string[] | No | Individual grants/restrictions (e.g. `orphan.approve`, `matching.override`) |
 | countryScope / officeScope | string[] / UUID[] | No | Record-level access boundaries |
 | partnerId | UUID | No | For partner users |
@@ -83,6 +84,7 @@
 | sponsorshipStatus | enum | Yes | AVAILABLE_FOR_MATCHING, MATCHED, SPONSORED, … |
 | photoDocumentId | UUID | No | Approved photo |
 | registeredAt | datetime | Yes | |
+| currentVersion | int | Yes | Current profile version (see §20) |
 
 ## 7. Document
 
@@ -191,6 +193,7 @@ Donor relationship data remains in Donor Care systems; OMS stores only what is n
 | status | enum | Yes | See `business logic.md` §11 |
 | privacyReviewedBy | UUID | No | |
 | donorVersionDocumentId | UUID | No | Generated donor-safe version |
+| profileUpdateStatus | enum | No | PENDING, PROFILE_UPDATED, PARTIALLY_FLAGGED |
 
 ## 17. Notification
 
@@ -225,3 +228,38 @@ Donor relationship data remains in Donor Care systems; OMS stores only what is n
 | at | datetime | Yes | |
 
 Audit records are append-only.
+
+## 20. OrphanProfileVersion
+
+| Field | Type | Required | Description |
+|---|---|---|---|
+| versionId | UUID | Yes | Primary key |
+| orphanId | UUID | Yes | Profile |
+| version | int | Yes | Incremented per update |
+| snapshot | json | Yes | Archived profile data, restricted like the live profile |
+| changedFields | json | Yes | Field, previous value, updated value |
+| sourceProgressReportId | UUID | No | Source report |
+| approvalDate | datetime | No | Report final approval |
+| updatedAt | datetime | Yes | Update timestamp |
+| updatedBy | UUID / SYSTEM | Yes | Responsible user or system action |
+
+Archived versions are immutable.
+
+## 21. ProfileUpdateFlag
+
+| Field | Type | Required | Description |
+|---|---|---|---|
+| flagId | UUID | Yes | Primary key |
+| orphanId / progressReportId | UUID | Yes | Link |
+| field | string | Yes | Profile field |
+| currentValue / reportedValue | json | Yes | Values in conflict |
+| status | enum | Yes | OPEN, ACCEPTED, DISCARDED |
+| resolvedBy / resolvedAt | UUID / datetime | No | Authorized reviewer |
+
+## 22. Access Configuration
+
+| Entity | Key fields |
+|---|---|
+| PermissionGroup | groupId, name, permissions[] |
+| ProfileAccessRule | ruleId, subjectType (ROLE, GROUP, USER), subjectId, section, field (optional), actions[] (VIEW, CREATE, EDIT, DELETE, UPLOAD, DOWNLOAD, SUBMIT, REVIEW, APPROVE, EXPORT), effect (GRANT, REVOKE) |
+| SensitiveAccessLog | userId, orphanId, section, field, action, at |

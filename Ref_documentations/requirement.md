@@ -92,13 +92,22 @@ OMS shall share expiry lists and renewal follow-up requirements with Donor Care 
 The system shall generate role-targeted in-app and email notifications for the events in `Workflow-Events.md`, with configurable rules and thresholds.
 
 ### FR-22 Audit
-The system shall log every critical action (user, role, action, record, previous and new values, timestamp, reason, decision, comments). Audit history is not editable by operational users.
+The system shall log every critical action (user, role, action, record, previous and new values, timestamp, reason, decision, comments). Audit history is not editable by operational users. Permission changes and access to sensitive data shall also be recorded.
 
 ### FR-23 Reports & Analytics
 The system shall provide orphan statistics, sponsorship, general support, financial, and progress reports (BRD §12) filtered by country, office, and period, and exportable by authorized users.
 
 ### FR-24 Configuration
 Administrators shall configure countries, offices, partners, roles, individual permissions, country/office access scopes, matching parameters, eligibility rules, activity categories, sponsorship types, notification rules, reporting periods, approval workflows, and document categories.
+
+### FR-25 Automated Profile Updates and Version History
+Once an Annual Progress Report receives final approval from the Orphan Program Manager, the system shall identify the profile fields to update, map the approved information to them, archive the previous profile as a historical version, and make the updated profile the current version. Fields not included in the report shall remain unchanged. Conflicting or unclear information shall be flagged for authorized review instead of being overwritten. The update shall not depend on donor email delivery. Version history shall show previous values, updated values, source report, approval date, update timestamp, and the responsible user or system action. Authorized users shall be able to view historical versions.
+
+### FR-26 Section-Level and Field-Level Permissions
+Access to an Orphan Profile shall not automatically grant access to all information in it. The system shall support separate permissions to view the profile, view specific sections and fields, create records, edit specific sections or fields, delete, upload and download documents, submit, review, approve changes, and export. Default section access is defined in `Roles-Permissions.md`.
+
+### FR-27 Permission Administration
+Authorized administrators shall create and configure roles and permission groups, assign permissions to individual users or teams, grant or revoke exceptions to role permissions, and restrict access by country, office, partner, or assigned beneficiary records. Permissions shall be enforced consistently across profile pages, documents, reports, lists, exports, and system actions.
 
 ## 4. Out of Scope
 

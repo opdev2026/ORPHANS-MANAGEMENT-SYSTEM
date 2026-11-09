@@ -47,6 +47,12 @@ Donor versions never include restricted fields. Donor Care cannot reach any orph
 ### Notifications
 Every event in `Workflow-Events.md` reaches the correct role and scope only.
 
+### Automated profile update
+Final approval updates only fields in the report, archives the previous version, and records the source report. Drafts and unapproved reports never change the profile. A failed donor email does not block the update. Conflicting data is flagged and not overwritten.
+
+### Section-level permissions
+A user with profile access sees only permitted sections and fields. The same limits apply to documents, reports, lists, and exports. An individual grant or revocation overrides the role default. Permission changes and sensitive data access are audited.
+
 ## 3. Security Acceptance
 
 - No critical or high vulnerabilities open at release.

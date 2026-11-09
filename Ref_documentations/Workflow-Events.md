@@ -91,6 +91,7 @@ sequenceDiagram
     FO->>SYS: Visit, collect updates, upload media, submit
     SYS--)PM: ⚡ EVT-PROGRESS-SUBMITTED
     PM->>SYS: Approve report
+    SYS->>SYS: Update Orphan Profile (new version, previous archived)
     SYS--)PM: ⚡ EVT-PRIVACY-REVIEW-PENDING (authorized reviewer)
     PM->>SYS: Privacy review approved
     SYS-)SP: 📧 Approved donor report (email)
@@ -148,7 +149,7 @@ sequenceDiagram
 
 ![Annual progress report swimlane](diagrams/05-annual-progress-report.svg)
 
-**Rules:** mandatory for every sponsored orphan (BR-024) · cycle starts in July (BR-025) · only approved, privacy-reviewed content is sent (BR-028) · Donor Care handles any donor follow-up about the report.
+**Rules:** mandatory for every sponsored orphan (BR-024) · cycle starts in July (BR-025) · only approved, privacy-reviewed content is sent (BR-028) · Donor Care handles any donor follow-up about the report. · the profile update runs on final approval and does not depend on email delivery · conflicting data is flagged, not overwritten.
 
 ---
 
@@ -193,7 +194,9 @@ sequenceDiagram
 | EVT-PROGRESS-RETURNED | Report returned | Program staff | Field Officer | Correct report | In-app |
 | EVT-PRIVACY-REVIEW-PENDING | Report approved, donor version ready | System | Authorized privacy reviewer | Check information | In-app |
 | EVT-REPORT-SENT | Email delivery attempted | System | Orphan Management | Monitor delivery status | In-app |
-| EVT-REPORT-DELIVERY-FAILED | Email bounced / failed | System | Orphan Management | Retry / correct address via Donor Care | In-app |
+| EVT-REPORT-DELIVERY-FAILED | Email bounced / failed | System | Authorized OMS user | Retry / correct address via Donor Care | In-app |
+| EVT-PROFILE-UPDATED *(proposed)* | Report final approval applied to profile | System | Orphan Program Staff | Review version history if needed | In-app |
+| EVT-PROFILE-UPDATE-FLAGGED *(proposed)* | Conflicting or unclear report data | System | Authorized reviewer | Resolve flagged fields | In-app |
 | EVT-FOLLOWUP-OVERDUE | Next follow-up date passed | Scheduler | Field Officer, Field Office Manager | Conduct visit | In-app, Email |
 
 ## 9. Event payload (standard)
@@ -214,3 +217,4 @@ sequenceDiagram
 - Payloads sent to Donor Care never contain orphan case data.
 - Every event is also written to the audit log.
 - Thresholds and recipients are configurable in Notification Rules (Workflow Matrix Part 8).
+- Events marked *(proposed)* support the profile update rules and are not yet listed in the Workflow Matrix notification table.
